@@ -4,6 +4,27 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Devin Bidwell</Authors>
+    <Product>DotnetDNS</Product>
+    <PackageVersion>0.0.1-alpha</PackageVersion>
+    <Copyright>Copyright 2022 (c) Devin Bidwell. All rights reserved.</Copyright>
+    <PackageTags>DNS UDP Custom Server</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>
+      This package allows you to parse a byte array from data sent from a DNS request into comsumable classes and enums.
+      You may then use that request to construct a DNS Response which has a Data property of a byte array type which can be sent back
+      to the endpoint which sent the request.
+    </Description>
+    <PackageId>DotnetDNS</PackageId>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/dbidwell94/dotnet-dns-server</RepositoryUrl>
+    <RespositoryType>git</RespositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="license.txt" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>

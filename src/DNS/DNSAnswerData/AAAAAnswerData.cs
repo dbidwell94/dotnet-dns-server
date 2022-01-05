@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace DNSServer.Answer;
+namespace DotnetDNS.Answer;
 
 public class AAAAAnswerData : DNSAnswerData
 {

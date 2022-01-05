@@ -1,8 +1,8 @@
 ﻿global using System.Globalization;
 // using System.Net.Sockets;
-// using DNSServer.Answer;
+// using DotnetDNS.Answer;
 
-// namespace DNSServer;
+// namespace DotnetDNS;
 
 // public class Program
 // {

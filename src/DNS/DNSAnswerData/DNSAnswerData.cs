@@ -1,4 +1,4 @@
-namespace DNSServer.Answer;
+namespace DotnetDNS.Answer;
 
 public abstract class DNSAnswerData
 {

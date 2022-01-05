@@ -1,4 +1,4 @@
-namespace DNSServer;
+namespace DotnetDNS;
 
 public enum RCode
 {

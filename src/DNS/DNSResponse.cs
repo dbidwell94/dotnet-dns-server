@@ -1,6 +1,6 @@
-using DNSServer.Answer;
+using DotnetDNS.Answer;
 
-namespace DNSServer;
+namespace DotnetDNS;
 
 public class DNSResponse : DNSEntry
 {

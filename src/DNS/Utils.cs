@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace DNSServer;
+namespace DotnetDNS;
 
 public static class DNSUtils
 {
