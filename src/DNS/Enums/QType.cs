@@ -1,7 +1,11 @@
 namespace DotnetDNS;
 
+/**
+* <summary>Taken from https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml</summary>
+*/
 public enum QType
 {
+    RESERVED = 0,
     A = 1,
     AAAA = 28,
     AFSDB = 18,
